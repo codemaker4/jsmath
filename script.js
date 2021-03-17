@@ -20,7 +20,8 @@ var Pixsize = defPixSize;
 var zoom = 1;
 var calculationString = "return x%y"
 var calculation = new Function("x", "y", calculationString);
-var notAllowedInCalculationString = ['creen','inner','pix','Pix','world','hunk','view','ick','ouse','calc','Calc','setup','anvas','Date','ge','Index','getXY','isDone','background','mage','move','buttonWasPressed','key','draw','text','stroke','fill','clear','color','arc','ellipse','line','point','quad','rect','triabgle','mooth','bezier','curve','begin','end','ertex','plane','box','sphere','cylinder','cone','ellipsoid','torus','loop','load','pop','push','redraw','ursor','display','window','width','height','Density','URL','Element','raphics','atrix','rotate','scale','shear','translate','tint','Tint','blend','copy','filter','get','set','http','save','day','hour','minute','millis','month','second','year','ector'];
+var notAllowedInCalculationString = [];
+// var notAllowedInCalculationString = ['creen','inner','pix','Pix','world','hunk','view','ick','ouse','calc','Calc','setup','anvas','Date','ge','Index','getXY','isDone','background','mage','move','buttonWasPressed','key','draw','text','stroke','fill','clear','color','arc','ellipse','line','point','quad','rect','triabgle','mooth','bezier','curve','begin','end','ertex','plane','box','sphere','cylinder','cone','ellipsoid','torus','loop','load','pop','push','redraw','ursor','display','window','width','height','Density','URL','Element','raphics','atrix','rotate','scale','shear','translate','tint','Tint','blend','copy','filter','get','set','http','save','day','hour','minute','millis','month','second','year','ector'];
 var beginTickTime = new Date().getTime();
 var minFrameRate = 10;
 var myCanvas;
